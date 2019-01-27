@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href= "https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/weather-icons.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi|Merienda+One|Niramit|Pacifico|Quicksand" rel="stylesheet">
+
+        <title>Weather App</title>
+        
+    </head>
+    <body>
+        
+        <h2>Tokyo</h2>
+
+        <div class="w-1"><h3><span id="temp"></span>&deg;C</h3></div>
+        
+        <div class="w-7"><h3>Today's weather:</h3></div>
+                <div class="w-6"><h3><span id="description"></span></h3></div>
+        
+        <div class="feature">   
+                <div class="w-2"><h3><i class="wi wi-thermometer"></i> </h3><h3>&nbsp;&nbsp;<span id="maxtemp"></span>&deg;C</h3>
+                </div>
+            
+                <div class="w-3"><h3><i class="wi wi-thermometer-exterior"></i></h3><h3>&nbsp;&nbsp;<span id="mintemp"></span>&deg;C</h3></div>
+            
+                <div class="w-5"><h3><i class="wi wi-humidity"></i></h3><h3>&nbsp;&nbsp;<span id="humidity"></span> %</h3>
+                </div>
+            
+                <div class="w-4"><h3><i class="wi wi-cloudy-gusts"></i></h3><h3>&nbsp;<span id="wind"></span></h3><h4>km/h</h4>
+                </div>     
+        </div>
+        
+        <script src="js/weatherapp.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
